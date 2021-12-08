@@ -30,6 +30,7 @@ namespace DRMVideoLocadora
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MainMenu1 = new System.Windows.Forms.MenuStrip();
             this.MenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem47 = new System.Windows.Forms.ToolStripMenuItem();
@@ -336,8 +337,10 @@ namespace DRMVideoLocadora
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(714, 520);
             this.Controls.Add(this.MainMenu1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Relação de Clientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DRMVideoLocadora";
             this.MainMenu1.ResumeLayout(false);
             this.MainMenu1.PerformLayout();
             this.ResumeLayout(false);

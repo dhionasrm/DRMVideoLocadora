@@ -117,28 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>134, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA
-        AAAAAAAAAAC/AAC/AAAAv78AvwAAAL8AvwC/vwAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
-        AAD///8AAAAAAAAAAARAAAAAAAAAAAAAAAAAAABO5AAAAAAAAAAAAAAAAAAE7v5AAAAAAAAAAAAAAAAA
-        Tu/v5AAAAAAAAAAAAAAABO7+/v5AAAAAAAAAAAAAAE7v7+/v5AAAAAAAAAAAAATu/v7+/v5AAAAAAAAA
-        AABO7+/v7+/v5AAAAAAAAAAE74iI/v7oiI9AAAAAAAAATvAAAI/vAAAI9AAAAAAABO/vAAiIiIAAiO9A
-        AAAAAE7+8AAAAAAAAAj+9AAAAATv7+CIiIiIiIgI7+9AAABO/v7wiIAIgAioCPiH9AAE7+/v4IgPAA8A
-        iAiACO9ATv7+/vCAgIAACqoAAAj+9E7vgAAACAj4gIiIAAAI7+QEcAd3cAAP93B3dwiIiP5AAAd4APdw
-        gIAI//8AB3jkAAgHeAD3cIgACACIB/AOQAAAf/d3f/cIDwAAAAAIdAAAAHAPD3AHCAAI8Ad3cAgAAABw
-        DwBwBwAIiAd4APdwAAAAeId3eIcOAAAHeAD3cIAACAd4APdwj/7wf/d3f/cAAAAHeAD3cP7v4HAPD3AH
-        AAAAgAd3cAfv/vBwDwBwBwAAAACAAAgE7u/geId3eIcAAAAAAAAAAE7++Ad4APdwgAAAAAAAAAAE7+4H
-        eAD3cAAAAAAAAAAAAE7kgAd3cAgAAAAAAAAAAAAEQACAAAgAAAD//n////w////4H///8A///+AH///A
-        A///gAH//wAA//4AAH/8AAA/+AAAH/AAAA/gAAAHwAAAA4AAAAEAAAAAAAAAAIAAAAHAAAADgAAAB4AA
-        AA+AAAAPgAAAD4AAAAeAAAAHwAAAB8AAAAfwIAAH//AAB//4AA///AAP//5wPw==
-</value>
-  </data>
 </root>
