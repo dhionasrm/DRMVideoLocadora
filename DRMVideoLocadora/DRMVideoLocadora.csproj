@@ -52,6 +52,102 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Add.Designer.cs">
+      <DependentUpon>Form_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Add_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Add_M.Designer.cs">
+      <DependentUpon>Form_Add_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Delete.Designer.cs">
+      <DependentUpon>Form_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Del_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Del_M.Designer.cs">
+      <DependentUpon>Form_Del_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Edit_DB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Edit_DB.Designer.cs">
+      <DependentUpon>Form_Edit_DB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Edit_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Edit_M.Designer.cs">
+      <DependentUpon>Form_Edit_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_M_C_H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_M_C_H.Designer.cs">
+      <DependentUpon>Form_M_C_H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Rent.Designer.cs">
+      <DependentUpon>Form_Rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_R_Tape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_R_Tape.Designer.cs">
+      <DependentUpon>Form_R_Tape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_S_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_S_M.Designer.cs">
+      <DependentUpon>Form_S_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_S_VideoDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_S_VideoDB.Designer.cs">
+      <DependentUpon>Form_S_VideoDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_V_C_H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_V_C_H.Designer.cs">
+      <DependentUpon>Form_V_C_H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_V_M.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_V_M.Designer.cs">
+      <DependentUpon>Form_V_M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_V_R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_V_R.Designer.cs">
+      <DependentUpon>Form_V_R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_V_Re.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_V_Re.Designer.cs">
+      <DependentUpon>Form_V_Re.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_V_tapes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_V_tapes.Designer.cs">
+      <DependentUpon>Form_V_tapes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
