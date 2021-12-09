@@ -140,7 +140,7 @@ namespace DRMVideoLocadora
             this.Controls.Add(this.dataGridView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Del_M";
-            this.Text = "Form_Del_M";
+            this.Text = "Excluir Membro";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
