@@ -186,6 +186,9 @@
     <EmbeddedResource Include="Form_S_VideoDB.resx">
       <DependentUpon>Form_S_VideoDB.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_V_C_H.resx">
+      <DependentUpon>Form_V_C_H.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
