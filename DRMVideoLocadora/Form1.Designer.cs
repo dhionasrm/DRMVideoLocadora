@@ -67,7 +67,23 @@ namespace DRMVideoLocadora
             this.MenuItem31 = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItem32 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.MainMenu1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainMenu1
@@ -81,11 +97,8 @@ namespace DRMVideoLocadora
             this.MenuItem19,
             this.MenuItem22,
             this.MenuItem31});
-            this.MainMenu1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.MainMenu1, "MainMenu1");
             this.MainMenu1.Name = "MainMenu1";
-            this.MainMenu1.Size = new System.Drawing.Size(714, 24);
-            this.MainMenu1.TabIndex = 0;
-            this.MainMenu1.Text = "menuStrip1";
             // 
             // MenuItem1
             // 
@@ -94,26 +107,23 @@ namespace DRMVideoLocadora
             this.toolStripSeparator1,
             this.MenuItem2});
             this.MenuItem1.Name = "MenuItem1";
-            this.MenuItem1.Size = new System.Drawing.Size(124, 20);
-            this.MenuItem1.Text = "DRMVideoLocadora";
+            resources.ApplyResources(this.MenuItem1, "MenuItem1");
             this.MenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // MenuItem47
             // 
             this.MenuItem47.Name = "MenuItem47";
-            this.MenuItem47.Size = new System.Drawing.Size(180, 22);
-            this.MenuItem47.Text = "Fechar";
+            resources.ApplyResources(this.MenuItem47, "MenuItem47");
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // MenuItem2
             // 
             this.MenuItem2.Name = "MenuItem2";
-            this.MenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.MenuItem2.Text = "Sair";
+            resources.ApplyResources(this.MenuItem2, "MenuItem2");
             // 
             // MenuItem3
             // 
@@ -123,31 +133,27 @@ namespace DRMVideoLocadora
             this.toolStripSeparator2,
             this.MenuItem7});
             this.MenuItem3.Name = "MenuItem3";
-            this.MenuItem3.Size = new System.Drawing.Size(49, 20);
-            this.MenuItem3.Text = "Editar";
+            resources.ApplyResources(this.MenuItem3, "MenuItem3");
             // 
             // MenuItem4
             // 
             this.MenuItem4.Name = "MenuItem4";
-            this.MenuItem4.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem4.Text = "Incluir";
+            resources.ApplyResources(this.MenuItem4, "MenuItem4");
             // 
             // MenuItem5
             // 
             this.MenuItem5.Name = "MenuItem5";
-            this.MenuItem5.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem5.Text = "Excluir";
+            resources.ApplyResources(this.MenuItem5, "MenuItem5");
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(106, 6);
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
             // MenuItem7
             // 
             this.MenuItem7.Name = "MenuItem7";
-            this.MenuItem7.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem7.Text = "Editar";
+            resources.ApplyResources(this.MenuItem7, "MenuItem7");
             // 
             // MenuItem8
             // 
@@ -158,20 +164,17 @@ namespace DRMVideoLocadora
             this.toolStripSeparator3,
             this.MenuItem28});
             this.MenuItem8.Name = "MenuItem8";
-            this.MenuItem8.Size = new System.Drawing.Size(68, 20);
-            this.MenuItem8.Text = "Visualizar";
+            resources.ApplyResources(this.MenuItem8, "MenuItem8");
             // 
             // MenuItem9
             // 
             this.MenuItem9.Name = "MenuItem9";
-            this.MenuItem9.Size = new System.Drawing.Size(170, 22);
-            this.MenuItem9.Text = "Clientes";
+            resources.ApplyResources(this.MenuItem9, "MenuItem9");
             // 
             // MenuItem10
             // 
             this.MenuItem10.Name = "MenuItem10";
-            this.MenuItem10.Size = new System.Drawing.Size(170, 22);
-            this.MenuItem10.Text = "Blue-Ray | DVDs";
+            resources.ApplyResources(this.MenuItem10, "MenuItem10");
             // 
             // MenuItem26
             // 
@@ -179,31 +182,27 @@ namespace DRMVideoLocadora
             this.MenuItem29,
             this.MenuItem30});
             this.MenuItem26.Name = "MenuItem26";
-            this.MenuItem26.Size = new System.Drawing.Size(170, 22);
-            this.MenuItem26.Text = "Transações";
+            resources.ApplyResources(this.MenuItem26, "MenuItem26");
             // 
             // MenuItem29
             // 
             this.MenuItem29.Name = "MenuItem29";
-            this.MenuItem29.Size = new System.Drawing.Size(130, 22);
-            this.MenuItem29.Text = "Locação";
+            resources.ApplyResources(this.MenuItem29, "MenuItem29");
             // 
             // MenuItem30
             // 
             this.MenuItem30.Name = "MenuItem30";
-            this.MenuItem30.Size = new System.Drawing.Size(130, 22);
-            this.MenuItem30.Text = "Devolução";
+            resources.ApplyResources(this.MenuItem30, "MenuItem30");
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(167, 6);
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
             // MenuItem28
             // 
             this.MenuItem28.Name = "MenuItem28";
-            this.MenuItem28.Size = new System.Drawing.Size(170, 22);
-            this.MenuItem28.Text = "Janela em Cascata";
+            resources.ApplyResources(this.MenuItem28, "MenuItem28");
             // 
             // MenuItem11
             // 
@@ -212,25 +211,22 @@ namespace DRMVideoLocadora
             this.toolStripSeparator4,
             this.MenuItem14});
             this.MenuItem11.Name = "MenuItem11";
-            this.MenuItem11.Size = new System.Drawing.Size(64, 20);
-            this.MenuItem11.Text = "Procurar";
+            resources.ApplyResources(this.MenuItem11, "MenuItem11");
             // 
             // MenuItem12
             // 
             this.MenuItem12.Name = "MenuItem12";
-            this.MenuItem12.Size = new System.Drawing.Size(158, 22);
-            this.MenuItem12.Text = "Clientes";
+            resources.ApplyResources(this.MenuItem12, "MenuItem12");
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(155, 6);
+            resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
             // 
             // MenuItem14
             // 
             this.MenuItem14.Name = "MenuItem14";
-            this.MenuItem14.Size = new System.Drawing.Size(158, 22);
-            this.MenuItem14.Text = "Blue-Ray | DVDs";
+            resources.ApplyResources(this.MenuItem14, "MenuItem14");
             // 
             // MenuItem15
             // 
@@ -239,26 +235,22 @@ namespace DRMVideoLocadora
             this.MenuItem17,
             this.MenuItem18});
             this.MenuItem15.Name = "MenuItem15";
-            this.MenuItem15.Size = new System.Drawing.Size(61, 20);
-            this.MenuItem15.Text = "Clientes";
+            resources.ApplyResources(this.MenuItem15, "MenuItem15");
             // 
             // MenuItem16
             // 
             this.MenuItem16.Name = "MenuItem16";
-            this.MenuItem16.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem16.Text = "Incluir";
+            resources.ApplyResources(this.MenuItem16, "MenuItem16");
             // 
             // MenuItem17
             // 
             this.MenuItem17.Name = "MenuItem17";
-            this.MenuItem17.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem17.Text = "Editar";
+            resources.ApplyResources(this.MenuItem17, "MenuItem17");
             // 
             // MenuItem18
             // 
             this.MenuItem18.Name = "MenuItem18";
-            this.MenuItem18.Size = new System.Drawing.Size(109, 22);
-            this.MenuItem18.Text = "Excluir";
+            resources.ApplyResources(this.MenuItem18, "MenuItem18");
             // 
             // MenuItem19
             // 
@@ -266,28 +258,24 @@ namespace DRMVideoLocadora
             this.MenuItem20,
             this.MenuItem21});
             this.MenuItem19.Name = "MenuItem19";
-            this.MenuItem19.Size = new System.Drawing.Size(76, 20);
-            this.MenuItem19.Text = "Transações";
+            resources.ApplyResources(this.MenuItem19, "MenuItem19");
             // 
             // MenuItem20
             // 
             this.MenuItem20.Name = "MenuItem20";
-            this.MenuItem20.Size = new System.Drawing.Size(130, 22);
-            this.MenuItem20.Text = "Locação";
+            resources.ApplyResources(this.MenuItem20, "MenuItem20");
             // 
             // MenuItem21
             // 
             this.MenuItem21.Name = "MenuItem21";
-            this.MenuItem21.Size = new System.Drawing.Size(130, 22);
-            this.MenuItem21.Text = "Devolução";
+            resources.ApplyResources(this.MenuItem21, "MenuItem21");
             // 
             // MenuItem22
             // 
             this.MenuItem22.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItem23});
             this.MenuItem22.Name = "MenuItem22";
-            this.MenuItem22.Size = new System.Drawing.Size(86, 20);
-            this.MenuItem22.Text = "Manutenção";
+            resources.ApplyResources(this.MenuItem22, "MenuItem22");
             // 
             // MenuItem23
             // 
@@ -295,54 +283,154 @@ namespace DRMVideoLocadora
             this.MenuItem24,
             this.MenuItem25});
             this.MenuItem23.Name = "MenuItem23";
-            this.MenuItem23.Size = new System.Drawing.Size(123, 22);
-            this.MenuItem23.Text = "Visualizar";
+            resources.ApplyResources(this.MenuItem23, "MenuItem23");
             // 
             // MenuItem24
             // 
             this.MenuItem24.Name = "MenuItem24";
-            this.MenuItem24.Size = new System.Drawing.Size(218, 22);
-            this.MenuItem24.Text = "Relação de Clientes";
+            resources.ApplyResources(this.MenuItem24, "MenuItem24");
             // 
             // MenuItem25
             // 
             this.MenuItem25.Name = "MenuItem25";
-            this.MenuItem25.Size = new System.Drawing.Size(218, 22);
-            this.MenuItem25.Text = "Relação de Blue-Ray | DVDs";
+            resources.ApplyResources(this.MenuItem25, "MenuItem25");
             // 
             // MenuItem31
             // 
             this.MenuItem31.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItem32});
             this.MenuItem31.Name = "MenuItem31";
-            this.MenuItem31.Size = new System.Drawing.Size(50, 20);
-            this.MenuItem31.Text = "Ajuda";
+            resources.ApplyResources(this.MenuItem31, "MenuItem31");
             // 
             // MenuItem32
             // 
             this.MenuItem32.Checked = true;
             this.MenuItem32.CheckState = System.Windows.Forms.CheckState.Checked;
             this.MenuItem32.Name = "MenuItem32";
-            this.MenuItem32.Size = new System.Drawing.Size(104, 22);
-            this.MenuItem32.Text = "Sobre";
+            resources.ApplyResources(this.MenuItem32, "MenuItem32");
             // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            // 
+            // toolStrip1
+            // 
+            resources.ApplyResources(this.toolStrip1, "toolStrip1");
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1,
+            this.toolStripButton2,
+            this.toolStripButton3,
+            this.toolStripSeparator5,
+            this.toolStripButton4,
+            this.toolStripButton5,
+            this.toolStripSeparator6,
+            this.toolStripButton6,
+            this.toolStripSeparator7,
+            this.toolStripButton7,
+            this.toolStripButton8});
+            this.toolStrip1.Name = "toolStrip1";
+            // 
+            // toolStripButton1
+            // 
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::DRMVideoLocadora.Properties.Resources.Edit;
+            this.toolStripButton1.Name = "toolStripButton1";
+            // 
+            // toolStripButton2
+            // 
+            resources.ApplyResources(this.toolStripButton2, "toolStripButton2");
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::DRMVideoLocadora.Properties.Resources.View;
+            this.toolStripButton2.Name = "toolStripButton2";
+            // 
+            // toolStripButton3
+            // 
+            resources.ApplyResources(this.toolStripButton3, "toolStripButton3");
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = global::DRMVideoLocadora.Properties.Resources.Search;
+            this.toolStripButton3.Name = "toolStripButton3";
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
+            // 
+            // toolStripButton4
+            // 
+            resources.ApplyResources(this.toolStripButton4, "toolStripButton4");
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = global::DRMVideoLocadora.Properties.Resources.VIDEO;
+            this.toolStripButton4.Name = "toolStripButton4";
+            // 
+            // toolStripButton5
+            // 
+            resources.ApplyResources(this.toolStripButton5, "toolStripButton5");
+            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton5.Image = global::DRMVideoLocadora.Properties.Resources.Member;
+            this.toolStripButton5.Name = "toolStripButton5";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
+            // 
+            // toolStripButton6
+            // 
+            resources.ApplyResources(this.toolStripButton6, "toolStripButton6");
+            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton6.Image = global::DRMVideoLocadora.Properties.Resources.TRANSACT;
+            this.toolStripButton6.Name = "toolStripButton6";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
+            // 
+            // toolStripButton7
+            // 
+            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
+            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton7.Image = global::DRMVideoLocadora.Properties.Resources.W95MBX01;
+            this.toolStripButton7.Name = "toolStripButton7";
+            // 
+            // toolStripButton8
+            // 
+            resources.ApplyResources(this.toolStripButton8, "toolStripButton8");
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = global::DRMVideoLocadora.Properties.Resources.MSGBOX02;
+            this.toolStripButton8.Name = "toolStripButton8";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
+            this.statusStrip1.Name = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(714, 520);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.MainMenu1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DRMVideoLocadora";
             this.MainMenu1.ResumeLayout(false);
             this.MainMenu1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,6 +474,20 @@ namespace DRMVideoLocadora
         private System.Windows.Forms.ToolStripMenuItem MenuItem31;
         private System.Windows.Forms.ToolStripMenuItem MenuItem32;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripButton toolStripButton5;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
     }
 }
 
