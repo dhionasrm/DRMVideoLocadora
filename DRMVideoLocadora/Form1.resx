@@ -140,7 +140,7 @@
     <value>124, 20</value>
   </data>
   <data name="MenuItem1.Text" xml:space="preserve">
-    <value>DRMVideoLocadora</value>
+    <value>&amp;DRMVideoLocadora</value>
   </data>
   <data name="MenuItem4.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 22</value>
@@ -167,7 +167,7 @@
     <value>49, 20</value>
   </data>
   <data name="MenuItem3.Text" xml:space="preserve">
-    <value>Editar</value>
+    <value>&amp;Editar</value>
   </data>
   <data name="MenuItem9.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 22</value>
@@ -180,18 +180,6 @@
   </data>
   <data name="MenuItem10.Text" xml:space="preserve">
     <value>Blue-Ray | DVDs</value>
-  </data>
-  <data name="MenuItem29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
-  </data>
-  <data name="MenuItem29.Text" xml:space="preserve">
-    <value>Locação</value>
-  </data>
-  <data name="MenuItem30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
-  </data>
-  <data name="MenuItem30.Text" xml:space="preserve">
-    <value>Devolução</value>
   </data>
   <data name="MenuItem26.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 22</value>
@@ -212,7 +200,7 @@
     <value>68, 20</value>
   </data>
   <data name="MenuItem8.Text" xml:space="preserve">
-    <value>Visualizar</value>
+    <value>&amp;Visualizar</value>
   </data>
   <data name="MenuItem12.Size" type="System.Drawing.Size, System.Drawing">
     <value>158, 22</value>
@@ -233,7 +221,7 @@
     <value>64, 20</value>
   </data>
   <data name="MenuItem11.Text" xml:space="preserve">
-    <value>Procurar</value>
+    <value>&amp;Procurar</value>
   </data>
   <data name="MenuItem16.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 22</value>
@@ -257,7 +245,7 @@
     <value>61, 20</value>
   </data>
   <data name="MenuItem15.Text" xml:space="preserve">
-    <value>Clientes</value>
+    <value>&amp;Clientes</value>
   </data>
   <data name="MenuItem20.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 22</value>
@@ -275,19 +263,7 @@
     <value>76, 20</value>
   </data>
   <data name="MenuItem19.Text" xml:space="preserve">
-    <value>Transações</value>
-  </data>
-  <data name="MenuItem24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="MenuItem24.Text" xml:space="preserve">
-    <value>Relação de Clientes</value>
-  </data>
-  <data name="MenuItem25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="MenuItem25.Text" xml:space="preserve">
-    <value>Relação de Blue-Ray | DVDs</value>
+    <value>&amp;Transações</value>
   </data>
   <data name="MenuItem23.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 22</value>
@@ -299,7 +275,7 @@
     <value>86, 20</value>
   </data>
   <data name="MenuItem22.Text" xml:space="preserve">
-    <value>Manutenção</value>
+    <value>&amp;Manutenção</value>
   </data>
   <data name="MenuItem32.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 22</value>
@@ -311,7 +287,7 @@
     <value>50, 20</value>
   </data>
   <data name="MenuItem31.Text" xml:space="preserve">
-    <value>Ajuda</value>
+    <value>&amp;Ajuda</value>
   </data>
   <data name="MainMenu1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -338,6 +314,30 @@
   <data name="&gt;&gt;MainMenu1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="MenuItem29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="MenuItem29.Text" xml:space="preserve">
+    <value>Locação</value>
+  </data>
+  <data name="MenuItem30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="MenuItem30.Text" xml:space="preserve">
+    <value>Devolução</value>
+  </data>
+  <data name="MenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="MenuItem24.Text" xml:space="preserve">
+    <value>Relação de Clientes</value>
+  </data>
+  <data name="MenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="MenuItem25.Text" xml:space="preserve">
+    <value>Relação de Blue-Ray | DVDs</value>
+  </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>134, 17</value>
   </metadata>
@@ -359,18 +359,6 @@
   <data name="toolStripSplitButton1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="blueRayDVDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDToolStripMenuItem.Text" xml:space="preserve">
-    <value>Blue Ray - DVD</value>
-  </data>
-  <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="toolStripSplitButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -387,30 +375,6 @@
   <data name="toolStripSplitButton2.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="blueRayDVDsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Blue Ray - DVDs</value>
-  </data>
-  <data name="clientesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
-  <data name="locaçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="locaçõesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Locações</value>
-  </data>
-  <data name="devoluçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="devoluçõesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Devoluções</value>
-  </data>
   <data name="toolStripSplitButton2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -425,18 +389,6 @@
   </data>
   <data name="toolStripSplitButton3.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="clientesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Blue Ray - DVDs</value>
   </data>
   <data name="toolStripSplitButton3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -456,18 +408,6 @@
   <data name="toolStripSplitButton4.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="incluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="incluirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Incluir</value>
-  </data>
-  <data name="excluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="excluirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
   <data name="toolStripSplitButton4.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -482,18 +422,6 @@
   </data>
   <data name="toolStripSplitButton5.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="incluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="incluirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Incluir</value>
-  </data>
-  <data name="excluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="excluirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Excluir</value>
   </data>
   <data name="toolStripSplitButton5.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -512,18 +440,6 @@
   </data>
   <data name="toolStripSplitButton6.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="locaçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="locaçãoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Locação</value>
-  </data>
-  <data name="devoluçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="devoluçãoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Devolução</value>
   </data>
   <data name="toolStripSplitButton6.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -600,12 +516,6 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>394, 17</value>
   </metadata>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 17</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>Video Locadora</value>
-  </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 498</value>
   </data>
@@ -629,6 +539,96 @@
   </data>
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Video Locadora</value>
+  </data>
+  <data name="blueRayDVDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Blue Ray - DVD</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Blue Ray - DVDs</value>
+  </data>
+  <data name="clientesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="locaçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="locaçõesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Locações</value>
+  </data>
+  <data name="devoluçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="devoluçõesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devoluções</value>
+  </data>
+  <data name="clientesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Blue Ray - DVDs</value>
+  </data>
+  <data name="incluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="incluirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="excluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="excluirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="incluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="incluirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="excluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="excluirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="locaçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="locaçãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Locação</value>
+  </data>
+  <data name="devoluçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="devoluçãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devolução</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
