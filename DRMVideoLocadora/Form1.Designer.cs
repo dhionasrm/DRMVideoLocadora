@@ -68,19 +68,33 @@ namespace DRMVideoLocadora
             this.MenuItem32 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.blueRayDVDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
+            this.blueRayDVDsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.locaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.devoluçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
+            this.clientesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.blueRayDVDsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton4 = new System.Windows.Forms.ToolStripSplitButton();
+            this.incluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton5 = new System.Windows.Forms.ToolStripSplitButton();
+            this.incluirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excluirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton6 = new System.Windows.Forms.ToolStripSplitButton();
+            this.locaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.devoluçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.MainMenu1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -318,89 +332,33 @@ namespace DRMVideoLocadora
             // 
             resources.ApplyResources(this.toolStrip1, "toolStrip1");
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripButton2,
-            this.toolStripButton3,
+            this.toolStripSplitButton1,
+            this.toolStripSplitButton2,
+            this.toolStripSplitButton3,
             this.toolStripSeparator5,
-            this.toolStripButton4,
-            this.toolStripButton5,
+            this.toolStripSplitButton4,
+            this.toolStripSplitButton5,
             this.toolStripSeparator6,
-            this.toolStripButton6,
+            this.toolStripSplitButton6,
             this.toolStripSeparator7,
-            this.toolStripButton7,
-            this.toolStripButton8});
+            this.toolStripButton1,
+            this.toolStripButton2});
             this.toolStrip1.Name = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = global::DRMVideoLocadora.Properties.Resources.Edit;
-            this.toolStripButton1.Name = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            resources.ApplyResources(this.toolStripButton2, "toolStripButton2");
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::DRMVideoLocadora.Properties.Resources.View;
-            this.toolStripButton2.Name = "toolStripButton2";
-            // 
-            // toolStripButton3
-            // 
-            resources.ApplyResources(this.toolStripButton3, "toolStripButton3");
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = global::DRMVideoLocadora.Properties.Resources.Search;
-            this.toolStripButton3.Name = "toolStripButton3";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             resources.ApplyResources(this.toolStripSeparator5, "toolStripSeparator5");
             // 
-            // toolStripButton4
-            // 
-            resources.ApplyResources(this.toolStripButton4, "toolStripButton4");
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = global::DRMVideoLocadora.Properties.Resources.VIDEO;
-            this.toolStripButton4.Name = "toolStripButton4";
-            // 
-            // toolStripButton5
-            // 
-            resources.ApplyResources(this.toolStripButton5, "toolStripButton5");
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton5.Image = global::DRMVideoLocadora.Properties.Resources.Member;
-            this.toolStripButton5.Name = "toolStripButton5";
-            // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
             resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
             // 
-            // toolStripButton6
-            // 
-            resources.ApplyResources(this.toolStripButton6, "toolStripButton6");
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = global::DRMVideoLocadora.Properties.Resources.TRANSACT;
-            this.toolStripButton6.Name = "toolStripButton6";
-            // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             resources.ApplyResources(this.toolStripSeparator7, "toolStripSeparator7");
-            // 
-            // toolStripButton7
-            // 
-            resources.ApplyResources(this.toolStripButton7, "toolStripButton7");
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = global::DRMVideoLocadora.Properties.Resources.W95MBX01;
-            this.toolStripButton7.Name = "toolStripButton7";
-            // 
-            // toolStripButton8
-            // 
-            resources.ApplyResources(this.toolStripButton8, "toolStripButton8");
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = global::DRMVideoLocadora.Properties.Resources.MSGBOX02;
-            this.toolStripButton8.Name = "toolStripButton8";
             // 
             // statusStrip1
             // 
@@ -413,6 +371,152 @@ namespace DRMVideoLocadora
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
+            // 
+            // toolStripSplitButton1
+            // 
+            resources.ApplyResources(this.toolStripSplitButton1, "toolStripSplitButton1");
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.blueRayDVDToolStripMenuItem,
+            this.clientesToolStripMenuItem});
+            this.toolStripSplitButton1.Image = global::DRMVideoLocadora.Properties.Resources.Edit;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            // 
+            // blueRayDVDToolStripMenuItem
+            // 
+            this.blueRayDVDToolStripMenuItem.Name = "blueRayDVDToolStripMenuItem";
+            resources.ApplyResources(this.blueRayDVDToolStripMenuItem, "blueRayDVDToolStripMenuItem");
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            resources.ApplyResources(this.clientesToolStripMenuItem, "clientesToolStripMenuItem");
+            // 
+            // toolStripSplitButton2
+            // 
+            resources.ApplyResources(this.toolStripSplitButton2, "toolStripSplitButton2");
+            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.blueRayDVDsToolStripMenuItem,
+            this.clientesToolStripMenuItem1,
+            this.locaçõesToolStripMenuItem,
+            this.devoluçõesToolStripMenuItem});
+            this.toolStripSplitButton2.Image = global::DRMVideoLocadora.Properties.Resources.View;
+            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
+            // 
+            // blueRayDVDsToolStripMenuItem
+            // 
+            this.blueRayDVDsToolStripMenuItem.Name = "blueRayDVDsToolStripMenuItem";
+            resources.ApplyResources(this.blueRayDVDsToolStripMenuItem, "blueRayDVDsToolStripMenuItem");
+            // 
+            // clientesToolStripMenuItem1
+            // 
+            this.clientesToolStripMenuItem1.Name = "clientesToolStripMenuItem1";
+            resources.ApplyResources(this.clientesToolStripMenuItem1, "clientesToolStripMenuItem1");
+            // 
+            // locaçõesToolStripMenuItem
+            // 
+            this.locaçõesToolStripMenuItem.Name = "locaçõesToolStripMenuItem";
+            resources.ApplyResources(this.locaçõesToolStripMenuItem, "locaçõesToolStripMenuItem");
+            // 
+            // devoluçõesToolStripMenuItem
+            // 
+            this.devoluçõesToolStripMenuItem.Name = "devoluçõesToolStripMenuItem";
+            resources.ApplyResources(this.devoluçõesToolStripMenuItem, "devoluçõesToolStripMenuItem");
+            // 
+            // toolStripSplitButton3
+            // 
+            resources.ApplyResources(this.toolStripSplitButton3, "toolStripSplitButton3");
+            this.toolStripSplitButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clientesToolStripMenuItem2,
+            this.blueRayDVDsToolStripMenuItem1});
+            this.toolStripSplitButton3.Image = global::DRMVideoLocadora.Properties.Resources.Search;
+            this.toolStripSplitButton3.Name = "toolStripSplitButton3";
+            // 
+            // clientesToolStripMenuItem2
+            // 
+            this.clientesToolStripMenuItem2.Name = "clientesToolStripMenuItem2";
+            resources.ApplyResources(this.clientesToolStripMenuItem2, "clientesToolStripMenuItem2");
+            // 
+            // blueRayDVDsToolStripMenuItem1
+            // 
+            this.blueRayDVDsToolStripMenuItem1.Name = "blueRayDVDsToolStripMenuItem1";
+            resources.ApplyResources(this.blueRayDVDsToolStripMenuItem1, "blueRayDVDsToolStripMenuItem1");
+            // 
+            // toolStripSplitButton4
+            // 
+            resources.ApplyResources(this.toolStripSplitButton4, "toolStripSplitButton4");
+            this.toolStripSplitButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.incluirToolStripMenuItem,
+            this.excluirToolStripMenuItem});
+            this.toolStripSplitButton4.Image = global::DRMVideoLocadora.Properties.Resources.VIDEO;
+            this.toolStripSplitButton4.Name = "toolStripSplitButton4";
+            // 
+            // incluirToolStripMenuItem
+            // 
+            this.incluirToolStripMenuItem.Name = "incluirToolStripMenuItem";
+            resources.ApplyResources(this.incluirToolStripMenuItem, "incluirToolStripMenuItem");
+            // 
+            // excluirToolStripMenuItem
+            // 
+            this.excluirToolStripMenuItem.Name = "excluirToolStripMenuItem";
+            resources.ApplyResources(this.excluirToolStripMenuItem, "excluirToolStripMenuItem");
+            // 
+            // toolStripSplitButton5
+            // 
+            resources.ApplyResources(this.toolStripSplitButton5, "toolStripSplitButton5");
+            this.toolStripSplitButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton5.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.incluirToolStripMenuItem1,
+            this.excluirToolStripMenuItem1});
+            this.toolStripSplitButton5.Image = global::DRMVideoLocadora.Properties.Resources.Member;
+            this.toolStripSplitButton5.Name = "toolStripSplitButton5";
+            // 
+            // incluirToolStripMenuItem1
+            // 
+            this.incluirToolStripMenuItem1.Name = "incluirToolStripMenuItem1";
+            resources.ApplyResources(this.incluirToolStripMenuItem1, "incluirToolStripMenuItem1");
+            // 
+            // excluirToolStripMenuItem1
+            // 
+            this.excluirToolStripMenuItem1.Name = "excluirToolStripMenuItem1";
+            resources.ApplyResources(this.excluirToolStripMenuItem1, "excluirToolStripMenuItem1");
+            // 
+            // toolStripSplitButton6
+            // 
+            resources.ApplyResources(this.toolStripSplitButton6, "toolStripSplitButton6");
+            this.toolStripSplitButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton6.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.locaçãoToolStripMenuItem,
+            this.devoluçãoToolStripMenuItem});
+            this.toolStripSplitButton6.Image = global::DRMVideoLocadora.Properties.Resources.TRANSACT;
+            this.toolStripSplitButton6.Name = "toolStripSplitButton6";
+            // 
+            // locaçãoToolStripMenuItem
+            // 
+            this.locaçãoToolStripMenuItem.Name = "locaçãoToolStripMenuItem";
+            resources.ApplyResources(this.locaçãoToolStripMenuItem, "locaçãoToolStripMenuItem");
+            // 
+            // devoluçãoToolStripMenuItem
+            // 
+            this.devoluçãoToolStripMenuItem.Name = "devoluçãoToolStripMenuItem";
+            resources.ApplyResources(this.devoluçãoToolStripMenuItem, "devoluçãoToolStripMenuItem");
+            // 
+            // toolStripButton1
+            // 
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = global::DRMVideoLocadora.Properties.Resources.W95MBX01;
+            this.toolStripButton1.Name = "toolStripButton1";
+            // 
+            // toolStripButton2
+            // 
+            resources.ApplyResources(this.toolStripButton2, "toolStripButton2");
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::DRMVideoLocadora.Properties.Resources.MSGBOX02;
+            this.toolStripButton2.Name = "toolStripButton2";
             // 
             // Form1
             // 
@@ -475,19 +579,33 @@ namespace DRMVideoLocadora
         private System.Windows.Forms.ToolStripMenuItem MenuItem32;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
-        private System.Windows.Forms.ToolStripButton toolStripButton8;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
+        private System.Windows.Forms.ToolStripMenuItem blueRayDVDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton2;
+        private System.Windows.Forms.ToolStripMenuItem blueRayDVDsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem locaçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem devoluçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton3;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem blueRayDVDsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton4;
+        private System.Windows.Forms.ToolStripMenuItem incluirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem excluirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton5;
+        private System.Windows.Forms.ToolStripMenuItem incluirToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem excluirToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton6;
+        private System.Windows.Forms.ToolStripMenuItem locaçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem devoluçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
     }
 }
 
