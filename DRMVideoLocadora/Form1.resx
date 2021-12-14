@@ -122,16 +122,16 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="MenuItem47.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>109, 22</value>
   </data>
   <data name="MenuItem47.Text" xml:space="preserve">
     <value>Fechar</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
+    <value>106, 6</value>
   </data>
   <data name="MenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>109, 22</value>
   </data>
   <data name="MenuItem2.Text" xml:space="preserve">
     <value>Sair</value>
@@ -180,6 +180,18 @@
   </data>
   <data name="MenuItem10.Text" xml:space="preserve">
     <value>Blue-Ray | DVDs</value>
+  </data>
+  <data name="MenuItem29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="MenuItem29.Text" xml:space="preserve">
+    <value>Locação</value>
+  </data>
+  <data name="MenuItem30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 22</value>
+  </data>
+  <data name="MenuItem30.Text" xml:space="preserve">
+    <value>Devolução</value>
   </data>
   <data name="MenuItem26.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 22</value>
@@ -265,6 +277,18 @@
   <data name="MenuItem19.Text" xml:space="preserve">
     <value>&amp;Transações</value>
   </data>
+  <data name="MenuItem24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="MenuItem24.Text" xml:space="preserve">
+    <value>Relação de Clientes</value>
+  </data>
+  <data name="MenuItem25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="MenuItem25.Text" xml:space="preserve">
+    <value>Relação de Blue-Ray | DVDs</value>
+  </data>
   <data name="MenuItem23.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 22</value>
   </data>
@@ -314,30 +338,6 @@
   <data name="&gt;&gt;MainMenu1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="MenuItem29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
-  </data>
-  <data name="MenuItem29.Text" xml:space="preserve">
-    <value>Locação</value>
-  </data>
-  <data name="MenuItem30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 22</value>
-  </data>
-  <data name="MenuItem30.Text" xml:space="preserve">
-    <value>Devolução</value>
-  </data>
-  <data name="MenuItem24.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="MenuItem24.Text" xml:space="preserve">
-    <value>Relação de Clientes</value>
-  </data>
-  <data name="MenuItem25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 22</value>
-  </data>
-  <data name="MenuItem25.Text" xml:space="preserve">
-    <value>Relação de Blue-Ray | DVDs</value>
-  </data>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>134, 17</value>
   </metadata>
@@ -359,6 +359,18 @@
   <data name="toolStripSplitButton1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="blueRayDVDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Blue Ray - DVD</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="toolStripSplitButton1.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -375,6 +387,30 @@
   <data name="toolStripSplitButton2.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="blueRayDVDsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Blue Ray - DVDs</value>
+  </data>
+  <data name="clientesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="locaçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="locaçõesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Locações</value>
+  </data>
+  <data name="devoluçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="devoluçõesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devoluções</value>
+  </data>
   <data name="toolStripSplitButton2.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -389,6 +425,18 @@
   </data>
   <data name="toolStripSplitButton3.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="clientesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="clientesToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="blueRayDVDsToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Blue Ray - DVDs</value>
   </data>
   <data name="toolStripSplitButton3.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -405,23 +453,20 @@
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 50</value>
   </data>
-  <data name="toolStripSplitButton4.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="toolStripSplitButton4.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="toolStripSplitButton4.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="toolStripSplitButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 50</value>
-  </data>
-  <data name="toolStripSplitButton4.Text" xml:space="preserve">
-    <value>toolStripSplitButton4</value>
-  </data>
   <data name="toolStripSplitButton5.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="incluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="incluirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="excluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="excluirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Excluir</value>
   </data>
   <data name="toolStripSplitButton5.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -433,13 +478,25 @@
     <value>55, 50</value>
   </data>
   <data name="toolStripSplitButton5.Text" xml:space="preserve">
-    <value>toolStripSplitButton5</value>
+    <value>toolStripSplitButton4</value>
   </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 50</value>
+  <data name="toolStripSplitButton5.ToolTipText" xml:space="preserve">
+    <value>toolStripSplitButton5</value>
   </data>
   <data name="toolStripSplitButton6.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="incluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="incluirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="excluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="excluirToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Excluir</value>
   </data>
   <data name="toolStripSplitButton6.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -451,7 +508,43 @@
     <value>55, 50</value>
   </data>
   <data name="toolStripSplitButton6.Text" xml:space="preserve">
+    <value>toolStripSplitButton5</value>
+  </data>
+  <data name="toolStripSplitButton6.ToolTipText" xml:space="preserve">
     <value>toolStripSplitButton6</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="toolStripSplitButton8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="locaçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="locaçãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Locação</value>
+  </data>
+  <data name="devoluçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="devoluçãoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Devolução</value>
+  </data>
+  <data name="toolStripSplitButton8.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="toolStripSplitButton8.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripSplitButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 50</value>
+  </data>
+  <data name="toolStripSplitButton8.Text" xml:space="preserve">
+    <value>toolStripSplitButton6</value>
+  </data>
+  <data name="toolStripSplitButton8.ToolTipText" xml:space="preserve">
+    <value>toolStripSplitButton8</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 50</value>
@@ -516,6 +609,12 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>394, 17</value>
   </metadata>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Video Locadora</value>
+  </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 498</value>
   </data>
@@ -539,96 +638,6 @@
   </data>
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 17</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>Video Locadora</value>
-  </data>
-  <data name="blueRayDVDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDToolStripMenuItem.Text" xml:space="preserve">
-    <value>Blue Ray - DVD</value>
-  </data>
-  <data name="clientesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Blue Ray - DVDs</value>
-  </data>
-  <data name="clientesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
-  <data name="locaçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="locaçõesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Locações</value>
-  </data>
-  <data name="devoluçõesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="devoluçõesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Devoluções</value>
-  </data>
-  <data name="clientesToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="clientesToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Clientes</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="blueRayDVDsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Blue Ray - DVDs</value>
-  </data>
-  <data name="incluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="incluirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Incluir</value>
-  </data>
-  <data name="excluirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="excluirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
-  <data name="incluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="incluirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Incluir</value>
-  </data>
-  <data name="excluirToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="excluirToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
-  <data name="locaçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="locaçãoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Locação</value>
-  </data>
-  <data name="devoluçãoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="devoluçãoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Devolução</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -863,30 +872,6 @@
   <data name="&gt;&gt;MenuItem32.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
-    <value>toolStripSeparator6</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
-    <value>toolStripSeparator7</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripSplitButton1.Name" xml:space="preserve">
     <value>toolStripSplitButton1</value>
   </data>
@@ -953,10 +938,16 @@
   <data name="&gt;&gt;blueRayDVDsToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton4.Name" xml:space="preserve">
-    <value>toolStripSplitButton4</value>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton4.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton5.Name" xml:space="preserve">
+    <value>toolStripSplitButton5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton5.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;incluirToolStripMenuItem.Name" xml:space="preserve">
@@ -971,10 +962,10 @@
   <data name="&gt;&gt;excluirToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton5.Name" xml:space="preserve">
-    <value>toolStripSplitButton5</value>
+  <data name="&gt;&gt;toolStripSplitButton6.Name" xml:space="preserve">
+    <value>toolStripSplitButton6</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton5.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSplitButton6.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;incluirToolStripMenuItem1.Name" xml:space="preserve">
@@ -989,10 +980,16 @@
   <data name="&gt;&gt;excluirToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton6.Name" xml:space="preserve">
-    <value>toolStripSplitButton6</value>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
   </data>
-  <data name="&gt;&gt;toolStripSplitButton6.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton8.Name" xml:space="preserve">
+    <value>toolStripSplitButton8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSplitButton8.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;locaçãoToolStripMenuItem.Name" xml:space="preserve">
@@ -1007,16 +1004,28 @@
   <data name="&gt;&gt;devoluçãoToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
-    <value>toolStripButton1</value>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
   </data>
-  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
     <value>toolStripButton2</value>
   </data>
   <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
