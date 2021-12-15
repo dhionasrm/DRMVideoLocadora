@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Member_x0020_Code_x0020_Database" msprop:Generator_TableClassName="Member_Code_DatabaseDataTable" msprop:Generator_TableVarName="tableMember_Code_Database" msprop:Generator_TablePropName="Member_Code_Database" msprop:Generator_RowDeletingName="Member_Code_DatabaseRowDeleting" msprop:Generator_RowChangingName="Member_Code_DatabaseRowChanging" msprop:Generator_RowEvHandlerName="Member_Code_DatabaseRowChangeEventHandler" msprop:Generator_RowDeletedName="Member_Code_DatabaseRowDeleted" msprop:Generator_UserTableName="Member Code Database" msprop:Generator_RowChangedName="Member_Code_DatabaseRowChanged" msprop:Generator_RowEvArgName="Member_Code_DatabaseRowChangeEvent" msprop:Generator_RowClassName="Member_Code_DatabaseRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnMember_ID" msprop:Generator_ColumnPropNameInRow="Member_ID" msprop:Generator_ColumnPropNameInTable="Member_IDColumn" msprop:Generator_UserColumnName="Member ID" type="xs:string" />
+              <xs:element name="Member_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnMember_Name" msprop:Generator_ColumnPropNameInRow="Member_Name" msprop:Generator_ColumnPropNameInTable="Member_NameColumn" msprop:Generator_UserColumnName="Member Name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Members_x0020_Database" msprop:Generator_TableClassName="Members_DatabaseDataTable" msprop:Generator_TableVarName="tableMembers_Database" msprop:Generator_TablePropName="Members_Database" msprop:Generator_RowDeletingName="Members_DatabaseRowDeleting" msprop:Generator_RowChangingName="Members_DatabaseRowChanging" msprop:Generator_RowEvHandlerName="Members_DatabaseRowChangeEventHandler" msprop:Generator_RowDeletedName="Members_DatabaseRowDeleted" msprop:Generator_UserTableName="Members Database" msprop:Generator_RowChangedName="Members_DatabaseRowChanged" msprop:Generator_RowEvArgName="Members_DatabaseRowChangeEvent" msprop:Generator_RowClassName="Members_DatabaseRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnMember_ID" msprop:Generator_ColumnPropNameInRow="Member_ID" msprop:Generator_ColumnPropNameInTable="Member_IDColumn" msprop:Generator_UserColumnName="Member ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnLast_Name" msprop:Generator_ColumnPropNameInRow="Last_Name" msprop:Generator_ColumnPropNameInTable="Last_NameColumn" msprop:Generator_UserColumnName="Last Name" type="xs:string" minOccurs="0" />
+              <xs:element name="First_x0020_Name" msprop:Generator_ColumnVarNameInTable="columnFirst_Name" msprop:Generator_ColumnPropNameInRow="First_Name" msprop:Generator_ColumnPropNameInTable="First_NameColumn" msprop:Generator_UserColumnName="First Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnPropNameInTable="ContactColumn" msprop:Generator_UserColumnName="Contact" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rentals_x0020_Database" msprop:Generator_TableClassName="Rentals_DatabaseDataTable" msprop:Generator_TableVarName="tableRentals_Database" msprop:Generator_TablePropName="Rentals_Database" msprop:Generator_RowDeletingName="Rentals_DatabaseRowDeleting" msprop:Generator_RowChangingName="Rentals_DatabaseRowChanging" msprop:Generator_RowEvHandlerName="Rentals_DatabaseRowChangeEventHandler" msprop:Generator_RowDeletedName="Rentals_DatabaseRowDeleted" msprop:Generator_UserTableName="Rentals Database" msprop:Generator_RowChangedName="Rentals_DatabaseRowChanged" msprop:Generator_RowEvArgName="Rentals_DatabaseRowChangeEvent" msprop:Generator_RowClassName="Rentals_DatabaseRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_x0020_ID" msprop:Generator_ColumnVarNameInTable="columnMember_ID" msprop:Generator_ColumnPropNameInRow="Member_ID" msprop:Generator_ColumnPropNameInTable="Member_IDColumn" msprop:Generator_UserColumnName="Member ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Video_x0020_Code" msprop:Generator_ColumnVarNameInTable="columnVideo_Code" msprop:Generator_ColumnPropNameInRow="Video_Code" msprop:Generator_ColumnPropNameInTable="Video_CodeColumn" msprop:Generator_UserColumnName="Video Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Rent_x0020_Date" msprop:Generator_ColumnVarNameInTable="columnRent_Date" msprop:Generator_ColumnPropNameInRow="Rent_Date" msprop:Generator_ColumnPropNameInTable="Rent_DateColumn" msprop:Generator_UserColumnName="Rent Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Rented" msprop:Generator_ColumnVarNameInTable="columnRented" msprop:Generator_ColumnPropNameInRow="Rented" msprop:Generator_ColumnPropNameInTable="RentedColumn" msprop:Generator_UserColumnName="Rented" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:Member_x0020_Code_x0020_Database" />
+      <xs:field xpath="mstns:Member_x0020_ID" />
+    </xs:unique>
+    <xs:unique name="Members_x0020_Database_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Members_x0020_Database" />
+      <xs:field xpath="mstns:Member_x0020_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
